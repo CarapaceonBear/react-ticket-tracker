@@ -3,10 +3,10 @@
 
 ### Requirements:
 
-AS AN employee
-I WANT to keep a count of all the tickets I have completed
-SO THAT I can manage my workflow
-
-AS AN employee
-I WANT to be able to track the number of tickets my coworkers have completed
-SO THAT I can compare the number of tickets we complete
+AS AN employee<br>
+I WANT to keep a count of all the tickets I have completed<br>
+SO THAT I can manage my workflow<br>
+<br>
+AS AN employee<br>
+I WANT to be able to track the number of tickets my coworkers have completed<br>
+SO THAT I can compare the number of tickets we complete<br>
