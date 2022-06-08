@@ -1,5 +1,9 @@
 # React Ticket Tracker
 ## Nology assignment
+-----------------------------------------------------------------------------------------------
+![look](https://i.imgur.com/WzPg2Hp.png)<br>
+
+A basic ticket tracker interface, using React. The user can click to increment or decrement any of the counters.
 
 ### Requirements:
 
