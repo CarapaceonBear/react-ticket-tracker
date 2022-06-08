@@ -6,7 +6,11 @@ const Ticket = (props) => {
     const [counter, setCounter] = useState(0);
 
     const updateCounter = (event) => {
-        event.target.value === "+" ? setCounter(counter + 1) : setCounter(counter - 1);
+        if (event.target.value === "+") {
+            setCounter(counter + 1);
+        } else if (counter > 0) {
+            setCounter(counter - 1);
+        }
     }
 
     return (
