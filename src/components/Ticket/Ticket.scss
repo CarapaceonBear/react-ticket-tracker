@@ -3,7 +3,7 @@
 h2 {
     margin: 5px 0;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: $font-light;
 }
 
 .ticket {
@@ -15,7 +15,10 @@ h2 {
     width: 200px;
     height: 280px;
     border: 2px solid black;
+    border-radius: 5px;
     padding: 1rem;
+
+    background-color: $color-d;
 
     &__counter {
         margin-top: auto;
@@ -23,12 +26,18 @@ h2 {
 
         width: 160px;
         border: 2px solid black;
+        border-radius: 5px;
         padding: 1rem;
+        background-color: $color-e;
 
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        &--positive {
+            background-color: $color-a;
+        }
 
         &--button-box {
             display: flex;

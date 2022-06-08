@@ -1,3 +1,7 @@
 @use "./assets/sass/variables" as *;
 
-
+body {
+    margin: 0;
+    background-color: $color-b;
+    font-family: $primary-font;
+}
